@@ -21,7 +21,7 @@ class SpecificIP(IPAPI):
         status_code = response.status_code
         latitude = str(data.get('latitude'))
         longitude = str(data.get('longitude'))
-        map_loc = "https://www.google.com.ph/maps/@" + latitude + ",".join([longitude, "15z"])
+        map_loc = "https://www.google.com.ph/maps/@" + ",".join([latitude, longitude, "15z"])
         return data, map_loc, status_code
 
     def specificLocationFied(self, ip, field):
@@ -61,5 +61,5 @@ def getIPInfo(ip_address):
     status_code = response.status_code
     latitude = str(data.get('lat'))
     longitude = str(data.get('lon'))
-    map_loc = "https://www.google.com.ph/maps/@" + latitude + ",".join([longitude, "15z"])
+    map_loc = "https://www.google.com.ph/maps/@" + ",".join([latitude, longitude, "15z"])
     return data, map_loc, status_code
