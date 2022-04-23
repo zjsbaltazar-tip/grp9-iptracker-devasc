@@ -9,6 +9,8 @@
   
 # Team Jurubetsu - Group 9 - IP Tracker
 
+Previous Repository (Django): https://github.com/zjsbaltazar-tip/grp9-iptracker.git
+
 ### Team Members:
 - Aras, Juanito
 - Baltazar, Zeus James
